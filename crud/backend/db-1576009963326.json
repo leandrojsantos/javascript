@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Arthur Oliveira",
+      "email": "aoliveira@coder.com.br"
+    },
+    {
+      "id": 2,
+      "name": "Maria Julia da Silva",
+      "email": "mjds@coder.com.br"
+    },
+    {
+      "name": "Ana Silva",
+      "email": "ana@icloud.com",
+      "id": 5
+    },
+    {
+      "name": "André Pereira",
+      "email": "andre@email.com",
+      "id": 6
+    },
+    {
+      "name": "Joao Antonio",
+      "email": "joao@email.com",
+      "id": 7
+    },
+    {
+      "name": "Kleber Machado",
+      "email": "klbrmcd@gmail.com",
+      "id": 8
+    }
+  ]
+}
