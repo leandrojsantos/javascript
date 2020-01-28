@@ -1,40 +1,68 @@
-# API para iniciar o desenvolvimento de NodeJS
+# Basic CRUD Template
 
-Sobre o projeto e uma estrutura base de API para iniciar o desenvolvimento de aplicacoes em NodeJS,
-contendo cadastro de usuarios e autenticacao
+Descricao do projeto feito em javascript utilizando Node + Reactjs, com intuido de oferecer um template básico com configurações predefinidas para base em novo projeto. 
 
->Dependências: Servidor
+Conta com autenticação, cadastro e gerenciamento de usúarios, e funções CRUD (Cadastro, Visualização, Atualização, e Exclusão) para uma tabela no banco de dados relacional no caso postgres.
 
-    EXPRESS
+# BACKEND fica na pasta server
 
->Conexão com Banco de Dados
+API desenvolvida em NodeJS.
 
-    POSTGRES
-    ORM SEQUELIZE
+**Dependências:**
+1. Servidor **EXPRESS**;
+2. Conexão com Banco de Dados **POSTGRES** utilizando **ORM SEQUELIZE**;
+3. Criptografia Hash com **BCRYPTJ**
+4. Autenticação com **JWT**
+5. Validação de dados com **YUP**
 
->Criptografia
+**Dependências de Desenvolvimento:**
+1. Nodemon
+2. Sucrase
+3. Prettier
+4. ESLint
 
-    Hash
-    BCRYPTJ
+# FRONTEND
 
->Autenticação Validação
+Desenvolvido em React + Redux.
 
-    JWT / YUP
+# Tecnologias utilizadas:
 
->Dependências de Desenvolvimento
+- ReactJS
+- Redux
+- Redux-Saga
+- React Router v4
+- styled-components
+- Axios
+- History
+- Polished
+- React-Toastify
+- React-Icons
+- react-perfect-scrollbar
+- Unform
+- Yup
+- date-fns
+- VS Code with EditorConfig and ESLint
 
-    Nodemon, Sucrase, Prettier, ESLint
+# Intruções para inicialização do projeto:
 
->Para iniciar o projeto:
+  Estar com a API do projeto em execução (seguir instruções do backend).
 
-1. Clone a pasta do projeto javascript-basico pelo terminal use o comando, no local onde deseja que pasta seja clonada
+  Acessar diretório:
 
-        git clone https://github.com/leandrojsantos/javascript-basico.git
+    $ cd frontend
 
-2. Istalacao das bibliotecas usadas usando o terminal navegue ate a pasta api-node-2 e use o comando
+  Instalar dependencias:
 
-        yarn
+    $ yarn install
 
-3. Start no projeto usar comando
+  Rodar:
 
-        yarn dev
+    $ yarn start
+
+# Imagens:
+
+![Captura de Tela 2020-01-20 às 16 00 23](https://user-images.githubusercontent.com/32015296/72752063-08ffa800-3ba0-11ea-805a-20c0885424f2.png)
+![Captura de Tela 2020-01-20 às 16 03 28](https://user-images.githubusercontent.com/32015296/72752066-08ffa800-3ba0-11ea-93de-4a9737d7c446.png)
+![Captura de Tela 2020-01-20 às 16 03 55](https://user-images.githubusercontent.com/32015296/72752067-08ffa800-3ba0-11ea-8042-249783659922.png)
+![Captura de Tela 2020-01-20 às 16 04 20](https://user-images.githubusercontent.com/32015296/72752068-08ffa800-3ba0-11ea-9f1a-4f96afcf9491.png)
+![Captura de Tela 2020-01-20 às 16 04 41](https://user-images.githubusercontent.com/32015296/72752069-08ffa800-3ba0-11ea-9032-00ef0f4a12fc.png)
