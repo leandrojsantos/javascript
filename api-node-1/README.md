@@ -130,8 +130,8 @@ Obs e comentario sobre o projeto:
 
 2. Istalacao das bibliotecas usadas usando o terminal navegue ate a pasta api-node-1 e use o comando
 
-        yarn
+        npm i
 
 3. Start no projeto usar comando
 
-        yarn dev
+        npm run dev
