@@ -1,9 +1,10 @@
-/**
- * obs1 => data em javascript e tudo milisegundo, a partir de 1970 que foi quando lancaram o linux
- * obs2 => meses comecam no '0' 
- * obs3 => se organiza assim: ano, meses, dias 
- * 
- */
+
+//obs1 => data em javascript e tudo milisegundo, a partir de 1970 que foi quando lancaram o linux
+
+//obs2 => meses comecam no '0' 
+
+//obs3 => se organiza assim: ano, meses, dias 
+
 
 //jan => 0
 const dataTeste = new Date(2020, 0, 31 )

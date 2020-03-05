@@ -35,6 +35,4 @@ console.log(novoObj)
 delete novoObj.sexo
 console.log(novoObj)
 
-/**
- * obs => por padrao e conversao do javascript evitar altera um objeto que ja foi criado sempre tentar cria um novo 
- */
+//obs1 => por padrao e conversao do javascript evitar altera um objeto que ja foi criado sempre tentar cria um novo 

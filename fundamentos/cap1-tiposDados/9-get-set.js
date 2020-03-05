@@ -1,13 +1,13 @@
 /**
  * gets e sets => modificadores ou assessores do javascrit
  * 
- * obs1 => variaveis com underline na frente sao privadas
- * obs2 => get somente aponta para variavel, enquanto set a modifica 
- * obs3 =>
- * 
- */ 
+ */
+// obs1 => variaveis com underline na frente sao privadas
 
-//_nome => uderderline na frente da chave representa conteudo privado 
+//obs2 => get somente aponta para variavel, enquanto set a modifica 
+
+//obs3 => uderderline na frente da chave representa conteudo privado 
+
 //toUpperCase => passa todo texto para caixa alta
 const pessoa = {
   _nome: '',

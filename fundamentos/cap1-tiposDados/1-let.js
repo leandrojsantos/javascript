@@ -8,10 +8,7 @@ let nome = 'Chapolin'
 let idade = 33
 let poder = 'nao contava com minha tussiaaa'
 
-/**
- * criada a variavel pode ser altera a qual quer momento 
- */
-
+//let => criada a variavel pode ser altera a qual quer momento dentro do seu escopo
 idade = 54
 poder = 'marreta bionica'
 
@@ -19,6 +16,4 @@ console.log(`NOME:  ${nome}
 IDADE: ${idade} 
 PODER: ${poder}`)
 
-/**
- * dica sempre que um erro ocorre nao olhar no final, sempre nas primeiras linhas da stak do terminal
- */
+//obs1 => sempre que um erro ocorre nao olhar no final, sempre nas primeiras linhas da stak do terminal

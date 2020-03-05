@@ -20,8 +20,7 @@ console.log('1<=8 eh:', 1<=8)
 console.log('4<=4 eh:', 4<=4)
 
 
-/**
- * obs1 => || signinifica 'ou' por ex (true ou false) || (true ou false)
- * 
- * obs2 => && significa 'e' por ex (true) && (true)
- */
+
+//obs1 => || signinifica 'ou' por ex (true ou false) || (true ou false)
+
+//obs2 => && significa 'e' por ex (true) && (true)
