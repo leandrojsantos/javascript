@@ -29,7 +29,7 @@ console.log(isNaN(salarioMeuCorrigido))
 
 let stringInicio = "test1"
 let stringfim = "test2"
-console.log(`salario 1 => ${stringInicio} + salario 2 => ${stringfim} = ${total}`);
+console.log(`salario 1 => ${stringInicio} + salario 2 => ${stringfim} = ${total}`)
 
 // obs1 => com tipos diferentes ele junta as variaveis ao inves de somar 
 
