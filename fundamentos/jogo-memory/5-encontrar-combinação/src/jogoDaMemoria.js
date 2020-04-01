@@ -54,7 +54,7 @@ class JogoDaMemoria {
         switch (heroisSelecionados) {
             case 0:
                 this.heroisSelecionados.push(item)
-                break;
+                break
             case 1:
                 const [opcao1] = this.heroisSelecionados
                 // zerar itens, para nao selecionar mais de dois
@@ -63,10 +63,10 @@ class JogoDaMemoria {
                 if (opcao1.nome === item.nome && opcao1.id !== id) {
                     deveMostrarMensagem = true
                     alert('combinação correta!')
-                    return;
+                    return
                 }
                 alert('combinação incorreta!')
-                break;
+                break
         }
     }
 
@@ -87,7 +87,7 @@ class JogoDaMemoria {
         this.tela.atualizarImagens(copias)
         setTimeout(() => {
             this.esconderHerois(copias)
-        }, 1000);
+        }, 1000)
     }
 
     jogar() {

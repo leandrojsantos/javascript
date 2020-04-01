@@ -45,6 +45,7 @@ class JogoDaMemoria {
         this.heroisEscondidos = heroisOcultos
     }
 
+    //obter somente a img, procurar  pelo nome
     exibirHerois(nomeHeroi) {
         const {
             img
@@ -64,7 +65,7 @@ class JogoDaMemoria {
         switch (heroisSelecionados) {
             case 0:
                 this.heroisSelecionados.push(item)
-                break;
+                break
             case 1:
                 const [opcao1] = this.heroisSelecionados
                 // zerar itens, para nao selecionar mais de dois
@@ -74,10 +75,10 @@ class JogoDaMemoria {
                     deveMostrarMensagem = true
                     this.exibirHerois(item.nome)
                     this.tela.exibirMensagem(true)
-                    return;
+                    return
                 }
                 this.tela.exibirMensagem(false)
-                break;
+                break
         }
     }
 
@@ -98,7 +99,7 @@ class JogoDaMemoria {
         this.tela.atualizarImagens(copias)
         setTimeout(() => {
             this.esconderHerois(copias)
-        }, 1000);
+        }, 1000)
     }
 
     jogar() {

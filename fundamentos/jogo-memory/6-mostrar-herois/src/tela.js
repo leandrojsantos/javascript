@@ -52,6 +52,7 @@ class Tela {
     }
     static exibirHerois(nome, img) {
         const elements = document.getElementsByName(nome)
+        //com foreach, para cada item dentro das () setamos o valor de img
         elements.forEach(item => (item.src = img))
     }
     static configurarBotaoJogar(funcaoOnclick) {
