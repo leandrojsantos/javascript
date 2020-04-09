@@ -56,6 +56,13 @@ class Tela {
 
     }
 
+/**
+ * obs1 vamos substituir o texto comecando $$contador segundos,
+ * obs2 onde esta o $$contador add  o valor,
+ * obs3 vamos criar uma funcao em linha para atualizar o texto a cada seg
+ * obs4 a cada seg vai chama a funcao atualizar texto com ela sera substituido o valor do $$contador dimunindo retorno o idDoIntervalor
+ */
+
     static iniciarContador() {
         let contarAte = 3
         const identificadorNoTexto = "$$contagem"

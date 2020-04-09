@@ -97,6 +97,9 @@ class JogoDaMemoria {
                 break;
         }
     }
+    /**
+     * obs1 para mostrar vamos pegar todos os herois da tela com seu valor correto
+     */
     mostrarHeroisEscondidos() {
         const heroisEscondidos = this.heroisEscondidos
         for (const heroi of heroisEscondidos) {
