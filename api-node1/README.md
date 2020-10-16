@@ -1,5 +1,5 @@
 <h1 align="center">
-     <a href="#" alt="site do ecoleta"> Api feita com node.js  </a>
+     <a href="#" alt=""> Api feita com node.js  </a>
 </h1>
 
 <h4 align="center">
@@ -15,7 +15,7 @@ Tabela de conteúdos
      * [Rodando o Backend (servidor)](#user-content--rodando-o-backend-servidor)
    * [Tecnologias](#-tecnologias)
      * [Server](#user-content-server--nodejs----typescript)
-   * [Licença](#user-content--licença)
+
 <!--te-->
 
 
@@ -189,25 +189,12 @@ $ npm run dev
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-**Server**  ([NodeJS](https://nodejs.org/en/)  +  [JavaScript](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript))
+**Server**  
+([NodeJS](https://nodejs.org/en/)  +  [JavaScript](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript))
 
 -   **[Express](https://expressjs.com/)**
 -   **[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
 -   **[Nodemon](https://nodemon.io/)**
 
-> Veja o arquivo  [package.json](https://github.com/leandrojsantos/javascript/blob/master/api-node1/package.json)
-
-**Utilitários**
--   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**
--   Teste de API:  **[Insomnia](https://insomnia.rest/)**
-
-
----
-
-## 📝 Licença
-
-Este projeto esta sobe a licença [MIT](./LICENSE).
-
-Feito com por Leandro Santos 👋🏽 [Entre em contato!](https://www.linkedin.com/in/leandro-santos-ljsr/)
-
----
+-  **[Visual Studio Code](https://code.visualstudio.com/)**
+-  **[Insomnia](https://insomnia.rest/)**
